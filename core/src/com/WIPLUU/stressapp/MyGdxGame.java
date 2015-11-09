@@ -11,12 +11,13 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	SpriteBatch batch;
 	Texture img;
-	Background test;
+	Background test1;
 	
 	@Override
 	public void create () {
 		img = new Texture("johncena.jpg");
-		Background test = new Background(img);
+		test1 = new Background(img);
+		batch = new SpriteBatch();
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-		test.draw(batch);
+		test1.draw(batch, Gdx.graphics.getWidth(), Gdx.graphics.getHeight()); //change later
 		batch.end();
 		
 	}

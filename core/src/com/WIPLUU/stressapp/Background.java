@@ -20,6 +20,7 @@ public class Background {
 
     public void draw(SpriteBatch b, int x, int y)
     {
+
         b.draw(back, 0, 0, x, y);
     }
 

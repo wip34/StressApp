@@ -7,6 +7,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+import javafx.stage.Screen;
+
 public class MyGdxGame extends ApplicationAdapter {
 
 	SpriteBatch batch;
@@ -29,4 +31,5 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.end();
 		
 	}
-}
+
+

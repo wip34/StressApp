@@ -1,0 +1,64 @@
+
+buttonAtlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+pika big
+  rotate: false
+  xy: 1, 343
+  size: 544, 608
+  orig: 544, 608
+  offset: 0, 0
+  index: -1
+dS1
+  rotate: false
+  xy: 1, 1
+  size: 640, 340
+  orig: 640, 340
+  offset: 0, 0
+  index: -1
+
+buttonAtlas2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dMisc3
+  rotate: false
+  xy: 1, 631
+  size: 640, 296
+  orig: 640, 296
+  offset: 0, 0
+  index: -1
+dropBlack
+  rotate: false
+  xy: 1, 421
+  size: 632, 208
+  orig: 632, 208
+  offset: 0, 0
+  index: -1
+dropBlue
+  rotate: false
+  xy: 1, 211
+  size: 632, 208
+  orig: 632, 208
+  offset: 0, 0
+  index: -1
+dropGray
+  rotate: false
+  xy: 1, 1
+  size: 632, 208
+  orig: 632, 208
+  offset: 0, 0
+  index: -1
+
+buttonAtlas3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dropYellow
+  rotate: false
+  xy: 1, 1
+  size: 632, 208
+  orig: 632, 208
+  offset: 0, 0
+  index: -1
